@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+body {
+  background-color: white;
+}
+
+/* NAVIGATION ET FOND DU HEADER */
+
+header {
+  background-image: url('../assets/backgroundmenu.png');
+  color: white;
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+.navFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 10px;
+}
+
+.imgLogo {
+  width: 100px;
+  margin-left: 30px;
+  margin-bottom: -30px;
+  margin-top: -25px;
+}
+
+.navBar {
+  display: flex;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.bold:after{
+  border-bottom: 3px solid #00CEC9;
+  display: block; /* This will put the pseudo element on its own line. */
+  width: 50%;
+  content: "";
+}
+
+li,.navBar{
+  margin-right: 25px;
+  font-size: 18px;
+}
+
+a:link, a:not([href]) {
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-decoration:none;
+  color: white !important;
+  cursor: pointer;
+}
+
+header div nav ul li {
+  display: block; /* This will put the pseudo element on its own line. */
+  width: 50%;
+  content: "";
+  color: white;
+}
+/* TITRE DU HEADER */
+
+.blocTitleHeader{
+  margin-top: 150px;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.titleHeader {
+  font-size: 60px;
+  line-height: 56px;
+  letter-spacing: 1px;
+}
+
+.orangeFont {
+  color: #ed6950;
+}
+
+.textHeader{
+  color: #595959;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.buttonHeader{
+  background-color: transparent;
+  height: 45px;
+  width: 160px;
+  border: 3px solid;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+
+
+/* MAIN CONTENT */
+
+.content {
+  margin-top: 150px;
+  color: #606f81;
+}
+
+.searchContent {
+  text-align: center;
+}
+
+.searchContent h2 {
+  letter-spacing: 1px;
+  padding: 20px;
+}
+
+.searchInput {
+  width: 400px;
+  height: 30px;
+  border-radius: 25px;
+  border: none;
+  padding-left: 20px;
+}
+
+/* NAV BAR CONTENT */
+
+.navSearch {
+  display: flex;
+  list-style: none;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.greyLi {
+  background-color: #bdc8d9;
+}
+
+.emptyLi {
+  border: 1px solid #bdc8d9;
+}
+
+.navSearch li {
+  padding: 0px 10px 0px 10px;
+  border-radius: 20px;
+}
+
+.navSearch li:hover {
+  background-color: #ffc74a;
+}
+
+.blocMain{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardFurniture {
+  padding-top: 5px;
+  margin-top: 30px;
+  text-align: center;
+  opacity: 16%; 
+  width: 280px;
+  height: 300px;  
+  box-shadow: 0px 3px 6px #d3d3d3;
+
+  display: grid;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-bottom: 50px;
+}
+
+.buttonLittleCard{
+  padding-top: 5px;
+  width: 100%;
+  background-color: #00CEC9;
+  border: 1px solid #00CEC9;
+  position: relative;
+  bottom: 0;
+  color: white;
+  cursor: pointer;
+}
+
+.buttonLittleCard:hover{
+    background-color: white;
+    color: black;
+}
+
+.cardImageSize{
+  height: 190px;
+}
+
+.cardtitle{
+  font-size: 15px;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.cardSubtitle{
+  font-size: 12px; 
+  font-style: italic;
+  font-weight: 300;
+}
+
+.paddingLeft15{
+  padding-left: 15px;
+}
+
+.header{
+  background-color: #00CEC9;
+}
+
+.colorWhite{
+  color: white;
+}
+
+.contactTitle{
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-bottom: 40px;
+  font-size: 30px;
+}
+
+.contactBloc{
+  text-align: center;
+}
+
+.contactBloc input[type=text],textarea{
+    width: 30%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #00CEC9; /* Gray border */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.contactBloc input[type=submit]{
+  width: 30%;
+  background-color: #00CEC9;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+   font-size: 12pt; 
+}
+::-moz-placeholder { /* Firefox 19+ */
+   font-size: 12pt; 
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+
+
+
+
+

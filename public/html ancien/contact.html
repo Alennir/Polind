@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,800" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<title>Contact</title>
+</head>
+<body>
+	<div class="header">
+		<div class="navFlex">
+			<div class="logo">
+				<img src="assets/Logo.png" class="imgLogo" alt="Logo">
+			</div>
+			<nav>
+				<ul class="navBar">
+					<li><a href="home.html" class="colorWhite bold">Home</a></li>
+					<li><a href="gallery.html" class="colorWhite">Gallery</a></li>
+					<li><a href="contact.html" class="colorWhite">Contact</a></li>
+					<li><a href="#" class="colorWhite">About Us</a></li>
+					<li><a href="login.html"><img src="assets/login.png" class="icon" alt="Search"></a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+
+	<div class="contactBloc">
+		<div class="contactTitle">Contact</div>
+		<div>
+			<input type="text" id="fname" name="firstname" placeholder="Name *">
+		</div>
+
+		<div>
+			<input type="text" id="lname" name="lastname" placeholder="Email *">
+		</div>
+
+		<div>
+			<input type="text" id="email" name="email" placeholder="Subject *">
+		</div>
+		<div>
+			<textarea id="subject" name="subject" placeholder="Your message" style="height:200px"></textarea>
+		</div>
+
+		<input type="submit" value="SUBMIT" onclick="submitContact()">
+	</div>
+
+</body>
+</html>
+<style type="text/css">
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+/* Add a background color and some padding around the form */
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+</style>
+
+<script type="text/javascript">
+	function submitContact(){
+
+	}
+
+	$(document).ready();
+</script>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,800" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<title>Login</title>
+</head>
+<body>
+	<div class="header">
+		<div class="navFlex">
+			<div class="logo">
+				<img src="assets/Logo.png" class="imgLogo" alt="Logo">
+			</div>
+			<nav>
+				<ul class="navBar">
+					<li><a href="home.html" class="colorWhite bold">Home</a></li>
+					<li><a href="gallery.html" class="colorWhite">Gallery</a></li>
+					<li><a href="contact.html" class="colorWhite">Contact</a></li>
+					<li><a href="#" class="colorWhite">About Us</a></li>
+					<li><a href="login.html"><img src="assets/login.png" class="icon" alt="Search"></a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="contactBloc">
+		<div class="contactTitle">Log In</div>
+		<div>
+			<input type="text" id="idUser" name="idUser" placeholder="Email">
+		</div>
+		<div>
+			<input type="text" id="pwdUser" name="pwdUser" placeholder="Password">
+		</div>
+
+		<input type="submit" value="LOG IN" onclick="submitContact()">
+	</div>
+
+</body>
+</html>

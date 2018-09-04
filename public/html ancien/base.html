@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="./public/base.css">
+<html>
+<head>
+	
+	<title>Homepage</title>
+</head>
+<body>
+	  <header>
+    <div class="navFlex">
+      <div class="logo">
+        <img src="image/Logo.png" class="imgLogo" alt="Logo">
+      </div>
+      <nav>
+        <ul class="navBar">
+          <li><a href="#">Guide</a></li>
+          <li><a href="#">Journey</a></li>
+          <li><a href="#">Hotels</a></li>
+          <li><a href="#">Travelers</a></li>
+          <li><img src="image/searcher.png" class="icon" alt="Search"></li>
+        </ul>
+      </nav>
+    </div>
+
+
+    <div class="blocTitleHeader">
+      <h1 class="titleHeader">Fall in love</h1>
+      <h1 class="titleHeader"><span class="orangeFont">with poland</span></h1>
+      <p class="textHeader">Best way to find your perfect place in Poland</p>
+      <button type="button" name="button" class="buttonHeader">SEARCH YOUR PLACE</button>
+
+
+    <!-- <p>Popular places to discover</p> -->
+    <div class="picLine">
+      <img src="image/image1.png" alt="Voyage" class="imgTravel">
+      <div class="secondImage detailsImages">
+        <div class="textCard">
+          <H3>Zakopane</H3>
+          <span class="yellowFont">Małopolskie</span>
+        </div>
+      </div>
+      <div class="thirdImage detailsImages">
+        <div class="textCardMid">
+          <H1>Sandomierz</H1>
+          <span>Swietokrzyskie</span>
+        </div>
+        <button type="button" name="button" class="buttonCard">VIEWS OFFERS</button>
+      </div>
+      <div class="fourthImage detailsImages">
+        <div class="textCard">
+          <H3>Sopot</H3>
+          <span class="yellowFont">Pomorskie</span>
+        </div>
+      </div>
+      <img src="image/image5.png" alt="Voyage" class="imgTravel">
+    </div>
+    </div>
+  </header>
+<div>
+	<div class="topnav">
+		<a href="./home.html">Home</a>
+		<a href="./furniture.html">Furniture</a>
+		<a href="./contact.html">Contact</a>
+		<div id="login" class="login-container">
+			<input id="txtUsername" type="text" placeholder="Username" name="username">
+			<input id="txtPassword" type="text" placeholder="Password" name="psw">
+			<button id="btnLogin" type="submit" onclick="login()">Login</button>
+		</div>
+		<div id="divUsername" class="hidden login-container">
+			<a id="aUsername"></a>
+		</div>
+	</div>
+	</div>
+
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript">
+	var username;
+
+	function login(){
+		username = document.getElementById('txtUsername').value;
+		$("#login").addClass('displayNone');
+		$("#divUsername").removeClass('hidden');
+		$("#aUsername").html("Connecté sous " + username);
+
+	}
+
+	$(document).ready();
+</script>
