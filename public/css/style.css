@@ -63,7 +63,6 @@ a:link, a:not([href]) {
 
 header div nav ul li {
   display: block; /* This will put the pseudo element on its own line. */
-  width: 50%;
   content: "";
   color: white;
 }
@@ -173,7 +172,6 @@ header div nav ul li {
   width: 280px;
   height: 300px;  
   box-shadow: 0px 3px 6px #d3d3d3;
-
   display: grid;
   background-color: white;
   border-radius: 5px;
@@ -193,8 +191,8 @@ header div nav ul li {
 }
 
 .buttonLittleCard:hover{
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .cardImageSize{
@@ -236,8 +234,8 @@ header div nav ul li {
   text-align: center;
 }
 
-.contactBloc input[type=text],textarea{
-    width: 30%; /* Full width */
+.contactBloc input[type=text],textarea, input[type=password]{
+  width: 30%; /* Full width */
   padding: 12px; /* Some padding */  
   border: 1px solid #00CEC9; /* Gray border */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -257,14 +255,167 @@ header div nav ul li {
 
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-   font-size: 12pt; 
+ font-size: 12pt; 
 }
 ::-moz-placeholder { /* Firefox 19+ */
-   font-size: 12pt; 
+ font-size: 12pt; 
 }
 
 .bold{
   font-weight: bold;
+}
+
+.cardCart {
+  padding-top: 5px;
+  margin-top: 30px;
+  opacity: 16%; 
+  width: 900px;
+  height: 200px;  
+  box-shadow: 0px 3px 6px #d3d3d3;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  display: flex;
+}
+
+.cardImageCart{
+  height: 170px;
+}
+
+
+.cardTotal {
+  padding-top: 5px;
+  margin-top: 30px;
+  opacity: 16%; 
+  width: 300px;
+  height: 250px;  
+  box-shadow: 0px 3px 6px #d3d3d3;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  display: grid;
+  text-align: center;
+}
+
+.cartTitle{
+  padding-top: 30px;
+  padding-left: 100px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contentLeft{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  width: 700px;
+}
+
+.objectList{
+  /* background-color: blue; */
+  width: 670px;
+  height: 250px;
+  margin-left: 100px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  box-shadow: 0px 3px 6px #d3d3d3;
+}
+
+.picture{
+  /* background-image: url("chaise.jpg"); */
+  width: 245px;
+  height: 300px;
+}
+
+.detailsQuantity{
+  /* background-color: lightblue; */
+  width: 300px;
+  height: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.infos{
+  /* background-color: orange; */
+  width: 300px;
+  height: 90px;
+  border-bottom: 1px solid #00CEC9;
+  border-right: 1px solid #00CEC9;
+  margin-top: 40px;
+}
+
+.details{
+  /* background-color: green; */
+  width: 300px;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-right: 1px solid #00CEC9;
+}
+
+.quantity{
+  /* background-color: purple; */
+  width: 140px;
+  height: 80px;
+}
+
+.colorItem{
+  /* background-color: yellow; */
+  width: 140px;
+  height: 80px;
+}
+
+.colorPicker{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: turquoise;
+}
+
+.selectQuantity{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inputSelect{
+  width: 25px;
+  height: 31px;
+  border: 1px solid lightgrey;
+}
+
+.buttonSelect{
+  border: 1px solid lightgrey;
+}
+
+.price{
+  /* background-color: black; */
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.cartSubTitle{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.quantityTitle{
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 20px;
+
+}
+
+.imgCart{
+  padding-top: 40px;
 }
 
 
